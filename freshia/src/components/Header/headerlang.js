@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import EnglishImg from '../images/english.png'
-import FrancaisImg from '../images/francais.png'
-import GermanImg from '../images/german.png'
+import EnglishImg from '../../images/english.png'
+import FrancaisImg from '../../images/francais.png'
+import GermanImg from '../../images/german.png'
 
 export class headerlang extends Component {
     render() {

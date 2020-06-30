@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import FreshiaLogo from '../images/logo1.png'
+import FreshiaLogo from '../../images/logo1.png'
 
 class headerlogo extends Component {
     render() {

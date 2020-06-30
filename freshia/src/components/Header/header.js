@@ -3,28 +3,29 @@ import HeaderLanguage from './headerlang'
 import HeaderCurrency from './headercurrency'
 import HeaderTopLink from './headertoplink'
 import HeaderLogo from './headerlogo'
-import FreshiaBg from '../images/footer-bg.jpg'
+import FreshiaBg from '../../images/footer-bg.jpg'
+import HeaderNav from '../Navigation/navigation'
 
 class header extends Component {
     render() {
         return (
             <div id='page'>
-                <header style={{backgroundImage: `url(${FreshiaBg})`}}>
+                <header style={{ backgroundImage: `url(${FreshiaBg})` }}>
                     <div className='header-container'>
                         <div className='header-top'>
                             <div className='container'>
                                 <div className='row'>
-                                    <div className="col-xs-12 col-sm-6">    
+                                    <div className="col-xs-12 col-sm-6">
                                         {/* Header Language*/}
-                                            <HeaderLanguage />
+                                        <HeaderLanguage />
                                         {/* Header Language End*/}
                                         {/* Header Currency */}
-                                            <HeaderCurrency />
+                                        <HeaderCurrency />
                                         {/* Header Currency End*/}
                                         <div class="welcome-msg"> Default welcome msg! </div>
                                     </div>
                                     {/* Header Top Links */}
-                                        <HeaderTopLink />
+                                    <HeaderTopLink />
                                     {/* Header Top Links End*/}
                                 </div>
                             </div>
@@ -37,9 +38,11 @@ class header extends Component {
                             </div>
                         </div>
                     </div>
-
+                    <HeaderNav />
+                    {/* end nav */}
                 </header>
-             </div>
+                {/* end Header */}
+            </div>
         )
     }
 }
