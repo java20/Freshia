@@ -9,7 +9,7 @@ import HeaderNav from '../Navigation/navigation'
 class header extends Component {
     render() {
         return (
-            <div id='page'>
+            <>
                 <header style={{ backgroundImage: `url(${FreshiaBg})` }}>
                     <div className='header-container'>
                         <div className='header-top'>
@@ -22,7 +22,7 @@ class header extends Component {
                                         {/* Header Currency */}
                                         <HeaderCurrency />
                                         {/* Header Currency End*/}
-                                        <div class="welcome-msg"> Default welcome msg! </div>
+                                        <div className="welcome-msg"> Default welcome msg! </div>
                                     </div>
                                     {/* Header Top Links */}
                                     <HeaderTopLink />
@@ -42,7 +42,7 @@ class header extends Component {
                     {/* end nav */}
                 </header>
                 {/* end Header */}
-            </div>
+            </>
         )
     }
 }

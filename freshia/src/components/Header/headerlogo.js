@@ -2,6 +2,21 @@ import React, { Component } from 'react'
 import FreshiaLogo from '../../images/logo1.png'
 
 class headerlogo extends Component {
+
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             searchBox: 'Search'        /** A State is added to handle search input */
+        }
+    }
+    
+    handleSearch =  (query) => {
+        this.setState({                             /** handleSearch is used to change state value */
+            searchBox: query.target.value
+        });
+    }
+
     render() {
         return (
             <>
@@ -16,7 +31,15 @@ class headerlogo extends Component {
                 <div className='col-lg-3 col-md-4 col-sm-4 col-xs-12 hidden-xs'>
                     <div className="search-box">
                         <form action="cat" method="POST" id="search_mini_form" name="Categories">
-                            <input type="text" placeholder="Search entire store here..." value="Search" maxlength="70" name="search" id="search" />
+                            <input 
+                            type="text" 
+                            placeholder="Search entire store here..." 
+                            value={this.state.searchBox} 
+                            maxLength="70" 
+                            name="search" 
+                            id="search" 
+                            onChange={this.handleSearch}    //Method added to handle Search input
+                            />
                             <button type="button" className="search-btn-bg"><span className="fa fa-search" style={{color:"#59B210"}}></span>&nbsp;</button>
                         </form>
                     </div>

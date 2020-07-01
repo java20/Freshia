@@ -23,7 +23,7 @@ class navigation extends Component {
                                 <li className="level0 parent drop-menu" id="nav-home"><a href="index.html" className="level-top"><i className="fa fa-home"></i><span className="hidden">Home</span></a>
                                     <NavHome />      {/*Navigation Home tab */}
                                 </li>
-                                <li className="level0 nav-6 level-top drop-menu"> <a className="level-top" href="#"> <span>Pages</span> </a>
+                                <li className="level0 nav-6 level-top drop-menu"> <a className="level-top" href="#/"> <span>Pages</span> </a>
                                     <NavPages />      {/*Navigation Pages tab */}
                                 </li>
                                 <li className="mega-menu"> <a className="level-top" href="grid.html"><span>Salads</span></a>
@@ -39,7 +39,7 @@ class navigation extends Component {
                                     <NavSandwiches />   {/*Navigation Sandwiches tab */}
                                 </li>
                                 <li className="mega-menu"> <a className="level-top" href="grid.html"><span>Fruits</span></a> </li>
-                                <li className="nav-custom-link mega-menu"> <a href="#" className="level-top"> <span>Custom</span> </a>
+                                <li className="nav-custom-link mega-menu"> <a href="#/" className="level-top"> <span>Custom</span> </a>
                                     <NavCustom />       {/*Navigation Custom tab */}
                                 </li>
                             </ul>

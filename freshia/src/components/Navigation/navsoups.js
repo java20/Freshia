@@ -63,7 +63,7 @@ class navsoups extends Component {
                                     {/*level0  */}
                                 </div>
                                 <div className="col-2">
-                                    <div className="menu_image1"> <a title="" href="#"><img alt="menu_image" src={SoupMenuImg} /> </a> </div>
+                                    <div className="menu_image1"> <a title="" href="#/"><img alt="menu_image" src={SoupMenuImg} /> </a> </div>
                                 </div>
                             </div>
                             {/*nav-block nav-block-center  */}
