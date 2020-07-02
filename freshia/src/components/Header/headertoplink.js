@@ -10,7 +10,7 @@ class headertoplink extends Component {
                         <div className="check"><a title="Checkout" href="checkout.html"><span className="hidden-xs">Checkout</span></a> </div>
                         <div className="demo"><a title="Blog" href="blog.html"><span className="hidden-xs">Blog</span></a> </div>
                           {/* HEADER COMPANY */}
-                        <div className="dropdown block-company-wrapper hidden-xs"> <a role="button" data-toggle="dropdown" data-target="#/" className="block-company dropdown-toggle" href="#/"> Company <span className="caret"></span></a>
+                        <div className="dropdown block-company-wrapper hidden-xs"> <a role="button" data-toggle="dropdown" className="block-company dropdown-toggle" href="#"> Company <span className="caret"></span></a>
                             <ul className="dropdown-menu">
                                 <li role="presentation"><a href="about_us.html"> About Us </a> </li>
                                 <li role="presentation"><a href="#/"> Customer Service </a> </li>

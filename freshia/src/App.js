@@ -14,7 +14,7 @@ function App() {
         <Header />
         <Slider />
         <Features />
-        {/* <NewProducts /> */}
+        <NewProducts />
         <BrandLogo />
         <Footer />
       </div>
