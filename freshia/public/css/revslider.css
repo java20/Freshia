@@ -393,10 +393,10 @@ background:#e31837
 	opacity: 0;*/
 }
 .tp-leftarrow {
-	z-index: 100;
+	z-index: 0;
 	cursor: pointer;
 	position: relative;
-	background: url(../images/left-a.png) no-repeat top left;
+	background: url(../left-a.png) no-repeat top left;
 	width: 40px;
 	height: 40px;
 }
@@ -404,7 +404,7 @@ background:#e31837
 	z-index: 100;
 	cursor: pointer;
 	position: relative;
-	background: url(../images/right-a.png) no-repeat top left;
+	background: url(../right-a.png) no-repeat top left;
 	width: 40px;
 	height: 40px;
 }
@@ -418,7 +418,7 @@ background:#e31837
 	z-index: 100;
 	cursor: pointer;
 	position: relative;
-	background: #59B210 url(../images/left-a.png) no-repeat 13px 8px;
+	background: #59B210 url(../left-a.png) no-repeat 13px 8px;
 	width: 40px;
 	height: 45px;
 	left: 0px !important;
@@ -429,7 +429,7 @@ background:#e31837
 	z-index: 100;
 	cursor: pointer;
 	position: relative;
-	background: #59B210 url(../images/right-a.png) no-repeat 13px 8px;
+	background: #59B210 url(../right-a.png) no-repeat 13px 8px;
 	width: 40px;
 	height: 45px;
 	right: 0 !important;
@@ -707,3 +707,4 @@ a.tp-button {
  margin-right: 0px;
 }
 }
+ }
