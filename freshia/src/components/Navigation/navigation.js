@@ -31,7 +31,7 @@ class navigation extends Component {
                                 </li>
                                 <li className="mega-menu"> <a className="level-top" href="grid.html"><span>Soups‎</span></a>
                                     <NavSoups />        {/*Navigation Soup tab */}
-                                </li>
+                               </li>
                                 <li className="mega-menu"> <a className="level-top" href="grid.html"><span>Fast Food</span></a>
                                     <NavFastFoods />    {/*Navigation Fast Food tab */}
                                 </li>

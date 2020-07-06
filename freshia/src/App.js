@@ -1,32 +1,25 @@
 import React from 'react';
 import Header from './components/Header/header'
-import Slider from './components/Slider/slider'
-import Features from './components/features'
-import BrandLogo from './components/brandlogo'
 import Footer from './components/Footer/footer'
-import NewProducts from './components/NewProducts/newproducts'
-import BestProducts from './components/BestSellers/bestseller'
-import CustomerReviews from './components/customerreviews'
-import FeaturedProducts from './components/FeaturedProducts/featuredproducts';
-import LatestBlog from './components/latestblog'
+import BrandLogo from './components/brandlogo'
+import Home from './components/Home_page'
+import Grid from './component2/Grid'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 //import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div id='page'>
+    <Router>
+      <div className="App">
         <Header />      {/** Fixed Component */}
-        <Slider />
-        <Features />
-        <NewProducts />
-        <BestProducts />
-        <CustomerReviews />
-        <FeaturedProducts />
-        <LatestBlog />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/grid' exact component={Grid} />
+        </Switch>
         <BrandLogo />   {/** Fixed Component */}
         <Footer />      {/** Fixed Component */}
       </div>
-    </div>
+    </Router>
   );
 }
 
