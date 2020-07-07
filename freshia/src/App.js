@@ -11,6 +11,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <div id='page'>
         <Header />      {/** Fixed Component */}
         <Switch>
           <Route path='/' exact component={Home} />
@@ -18,6 +19,7 @@ function App() {
         </Switch>
         <BrandLogo />   {/** Fixed Component */}
         <Footer />      {/** Fixed Component */}
+        </div>
       </div>
     </Router>
   );

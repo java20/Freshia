@@ -10,7 +10,7 @@ import LatestBlog from './latestblog'
 
 function Home_page() {
     return (
-        <div id='page'>
+        <div>
             <Slider />
             <Features />
             <NewProducts />

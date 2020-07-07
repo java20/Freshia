@@ -4065,11 +4065,11 @@ ul#magicat li .open-close, .block-layered-nav dt .toggleBtn {
 	opacity: 0.8;
 }
 .box-category .subDropdown.plus {
-	background-image: url("../images/plus.png");
+	background-image: url("../plus.png");
 
 }
 .box-category .subDropdown.minus {
-	background-image: url("../images/minus.png");
+	background-image: url("../minus.png");
 	top: 3px
 }
 .box-category ul li a {
