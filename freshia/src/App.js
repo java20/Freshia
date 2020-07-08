@@ -4,6 +4,8 @@ import Footer from './components/Footer/footer'
 import BrandLogo from './components/brandlogo'
 import Home from './components/Home_page'
 import Grid from './component2/Grid'
+import List from './listcomponent/list'
+import MobileMenu from './mobilemenu'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 //import './App.css';
 
@@ -15,11 +17,13 @@ function App() {
         <Header />      {/** Fixed Component */}
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/grid' exact component={Grid} />
+          <Route path='/grid' component={Grid} />
+          <Route path='/list' component={List} />
         </Switch>
         <BrandLogo />   {/** Fixed Component */}
         <Footer />      {/** Fixed Component */}
         </div>
+        <MobileMenu />
       </div>
     </Router>
   );

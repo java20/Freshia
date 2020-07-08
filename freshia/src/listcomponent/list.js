@@ -1,22 +1,23 @@
-import React, { Component } from 'react';
-import Slide from './slide'
+import React, { Component } from 'react'
+import Slide from '../component2/slide'
 import Products from './products'
-import Categories from './categories'
+import Categories from '../component2/categories'
 import HotTrends from '../images/hot-trends-banner.jpg'
-import ShopBy from './shopby'
-import MyCart from './mycart'
-import CompareProduct from './compareproducts'
-import SideSlide from './sideslide'
-import RecentlyViewed from './recentlyviewed'
-import CommunityPoll from './communitypoll'
-import PopularTags from './populartags'
+import ShopBy from '../component2/shopby'
+import MyCart from '../component2/mycart'
+import CompareProduct from '../component2/compareproducts'
+import SideSlide from '../component2/sideslide'
+import RecentlyViewed from '../component2/recentlyviewed'
+import CommunityPoll from '../component2/communitypoll'
+import PopularTags from '../component2/populartags'
 
-class Grid extends Component {
+
+class list extends Component {
     render() {
         return (
             <>
-                {/* Bread Crums */}
-                <div className="breadcrumbs">
+                   {/* Bread Crums */}
+                   <div className="breadcrumbs">
                     <div className="container">
                         <div className="row">
                             <div className="col-xs-12">
@@ -60,11 +61,9 @@ class Grid extends Component {
                 </section>
 
                 {/** Main Contaiiner */}
-
-
             </>
         )
     }
 }
 
-export default Grid
+export default list

@@ -5363,21 +5363,21 @@ ol#compare-items li.last {
 	float: right;
 }
 .display-product-option .button-list {
-	background: #f8f8f8 url(../images/icon_list.png) no-repeat 8px 8px;
+	background: #f8f8f8 url(../icon_list.png) no-repeat 8px 8px;
 	text-transform: none;
 	padding: 7px 8px 7px 22px;
 	border-radius:2px;
 	display:inline-block
 }
 .display-product-option a.button-grid {
-	background: #f8f8f8 url(../images/icon_grid.png) no-repeat 10px 8px;
+	background: #f8f8f8 url(../icon_grid.png) no-repeat 10px 8px;
 	padding: 7px 8px 7px 22px;
 	border: none;
 	border-radius:2px;
 	display:inline-block
 }
 .display-product-option span.button-active.button-grid {
-	background: #59B210 url(../images/icon_grid_act.png) no-repeat 9px 8px;
+	background: #59B210 url(../icon_grid_act.png) no-repeat 9px 8px;
 	padding: 7px 8px 7px 22px;
 	margin-right: 5px;
 	border: none;
@@ -5385,7 +5385,7 @@ ol#compare-items li.last {
 	display:inline-block
 }
 .display-product-option span.button-active.button-list {
-	background: #59B210 url(../images/icon_list_over.png) no-repeat 8px 8px;
+	background: #59B210 url(../icon_list_over.png) no-repeat 8px 8px;
 	padding: 7px 8px 7px 22px;
 	border: none;
 	margin-left: 5px;
