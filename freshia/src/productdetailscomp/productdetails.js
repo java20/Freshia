@@ -42,7 +42,7 @@ class productdetails extends Component {
     render() {
         return (
             <>
-        
+                {/* Bread Crum */}
                 <div className="breadcrumbs">
                     <div className="container">
                         <div className="row">
@@ -57,7 +57,7 @@ class productdetails extends Component {
                         </div>
                     </div>
                 </div>
-                
+                {/* Bread Crum */}
 
                 <section className='main-container col1-layout'>
                     <div className='main'>
