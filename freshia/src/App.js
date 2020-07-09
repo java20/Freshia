@@ -5,6 +5,7 @@ import BrandLogo from './components/brandlogo'
 import Home from './components/Home_page'
 import Grid from './component2/Grid'
 import List from './listcomponent/list'
+import ProductDetails from './productdetailscomp/productdetails'
 import MobileMenu from './mobilemenu'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/grid' component={Grid} />
           <Route path='/list' component={List} />
+          <Route path='/productdetails' component={ProductDetails} />
         </Switch>
         <BrandLogo />   {/** Fixed Component */}
         <Footer />      {/** Fixed Component */}
