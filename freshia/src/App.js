@@ -7,7 +7,6 @@ import Grid from './component2/Grid'
 import List from './listcomponent/list'
 import MobileMenu from './mobilemenu'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-//import './App.css';
 
 function App() {
   return (
@@ -23,7 +22,7 @@ function App() {
         <BrandLogo />   {/** Fixed Component */}
         <Footer />      {/** Fixed Component */}
         </div>
-        <MobileMenu />
+        <MobileMenu />  {/** Fixed and component for mobile menu only */}
       </div>
     </Router>
   );
