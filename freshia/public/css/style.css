@@ -3343,14 +3343,14 @@ a.button.detail-bnt span {
 	height: 10px;
 	font-size: 0;
 	line-height: 0;
-	background: url(../images/bkg_rating.png) 0 0 repeat-x;
+	background: url(../bkg_rating.png) 0 0 repeat-x;
 	text-indent: -999em;
 	overflow: hidden;
 }
 .rating-box .rating {
 	float: left;
 	height: 9px;
-	background: url(../images/bkg_rating.png) 0 100% repeat-x;
+	background: url(../bkg_rating.png) 0 100% repeat-x;
 }
 .ratings .rating-box {
 	display: inline-block;
