@@ -9,7 +9,16 @@ import ProductDetails from './productdetailscomp/productdetails'
 import ShoppingCart from './shopping_cartComp/cart'
 import Blog from './blogcomponent/blog'
 import BlogDetail from './blogdetailcomponent/blogdetail'
-import Checkout from './checkout/checkout'
+import Checkout from './checkoutcomponent/checkout'
+import WishList from './wishlistcomponent/wishlist'
+import Dashboard from './dashboard/dashboard'
+import MultipleAddresses from './multipleaddresses/multipleaddresses'
+import Compare from './comparecomponent/compare'
+import Login from './logincomponent/login'
+import AboutUs from './aboutus/aboutus'
+import Faq from './faqcomponent/faq'
+import ContactUs from './contactus/contactus'
+import SiteMap from './sitemap/sitemap';
 import MobileMenu from './mobilemenu'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -28,6 +37,15 @@ function App() {
           <Route path='/blog' component={Blog} />
           <Route path='/blogdetail' component={BlogDetail} />
           <Route path='/checkout' component={Checkout} />
+          <Route path='/wishlist' component={WishList} />
+          <Route path='/dashboard' component={Dashboard} />
+          <Route path='/multipleaddresses' component={MultipleAddresses} />
+          <Route path='/compare' component={Compare} />
+          <Route path='/login' component={Login} />
+          <Route path='/aboutus' component={AboutUs} />
+          <Route path='/faq' component={Faq} />
+          <Route path='/contactus' component={ContactUs} />
+          <Route path='/sitemap' component={SiteMap} />
         </Switch>
         <BrandLogo />   {/** Fixed Component */}
         <Footer />      {/** Fixed Component */}
