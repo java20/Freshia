@@ -5,7 +5,6 @@ import FooterMiddle from './footermiddle'
 import FooterBottom from './footerbottom'
 import FreshiaBg from '../../images/footer-bg.jpg'
 
-
 class footer extends Component {
     render() {
         return (

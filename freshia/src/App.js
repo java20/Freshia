@@ -19,6 +19,9 @@ import AboutUs from './aboutus/aboutus'
 import Faq from './faqcomponent/faq'
 import ContactUs from './contactus/contactus'
 import SiteMap from './sitemap/sitemap';
+import NewsLetter from './newsletter/newsletter'
+import QuickView from './quickview/quickview'
+import PageNotFound from './404error/pagenotfound'
 import MobileMenu from './mobilemenu'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -46,9 +49,15 @@ function App() {
           <Route path='/faq' component={Faq} />
           <Route path='/contactus' component={ContactUs} />
           <Route path='/sitemap' component={SiteMap} />
+          <Route path='/newsletter' component={NewsLetter} />
+          <Route path='/quickview' component={QuickView} />
+          <Route path='/404error' component={PageNotFound} />
         </Switch>
         <BrandLogo />   {/** Fixed Component */}
         <Footer />      {/** Fixed Component */}
+        <Switch>
+          
+        </Switch>
         </div>
         <MobileMenu />  {/** Fixed and component for mobile menu only */}
       </div>
