@@ -24,7 +24,7 @@ class navigation extends Component {
                                     <NavHome />      {/*Navigation Home tab */}
                                 </li>
                                 <li className="level0 nav-6 level-top drop-menu"> <a className="level-top" href="#/"> <span>Pages</span> </a>
-                                    <NavPages />      {/*Navigation Pages tab */}
+                                    <NavPages pagetype="Home" />      {/*Navigation Pages tab */}
                                 </li>
                                 <li className="mega-menu"> <a className="level-top" href="grid.html"><span>Salads</span></a>
                                     <NavSalads />      {/*Navigation Salad tab */}

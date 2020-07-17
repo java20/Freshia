@@ -180,7 +180,7 @@ class quickview extends Component {
 
                             </div>
                         </div>
-                        <a style={{ display: 'inline' }} id="fancybox-close" href="index.html"></a>
+                        <a style={{ display: 'inline' }} id="fancybox-close" href="/home"></a>
                     </div>
                 </div>
                 <div className='zoomContainer' style={{ transform: 'translateZ(0px)', position: 'absolute', left: '47.9125px', top: '164.475px', height: '289px', width: '289px' }}>

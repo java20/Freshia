@@ -54,19 +54,69 @@ class productzoom extends Component {
                                         <div className="more-views">
                                             <div className="slider-items-products">
                                                 <div id="gallery_01" className="product-flexslider hidden-buttons product-img-thumb">
-                                                    <div className="slider-items slider-width-col4 block-content">
-                                                        <div className="more-views-items"> <a href="#" data-image={Product2} data-zoom-image={Product2}> <img id="product-zoom" src={Product2} alt="product-image" /> </a></div>
-                                                        <div className="more-views-items"> <a href="#" data-image={Product3} data-zoom-image={Product3}> <img id="product-zoom" src={Product3} alt="product-image" /> </a></div>
-                                                        <div className="more-views-items"> <a href="#" data-image={Product4} data-zoom-image={Product4}> <img id="product-zoom" src={Product4} alt="product-image" /> </a></div>
-                                                        <div className="more-views-items"> <a href="#" data-image={Product5} data-zoom-image={Product5}> <img id="product-zoom" src={Product5} alt="product-image" /> </a> </div>
-                                                        <div className="more-views-items"> <a href="#" data-image={Product6} data-zoom-image={Product6}> <img id="product-zoom" src={Product6} alt="product-image" /> </a></div>
+                                                    <div className="slider-items slider-width-col4 block-content owl-carousel owl-theme"
+                                                        style={{ opacity: '1', display: 'block' }}>
+                                                        <div className="owl-wrapper-outer">
+                                                            <div className='owl-wrapper' style={{ width: '330px', left: '0px', display: 'block', transition: 'all 0ms ease 0s', transform: 'translate3d(-66px, 0px, 0px)' }}>
+                                                                <div className="owl-item" style={{ width: '50px' }}>
+                                                                    <div className='more-views-items'>
+                                                                        <a href='#' data-image={Product2}
+                                                                            data-zoom-image={Product2}>
+                                                                            <img id='product-zoom' src={Product2} alt='product-image' />
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="owl-item" style={{ width: '50px' }}>
+                                                                    <div className='more-views-items'>
+                                                                        <a href='#' data-image={Product3}
+                                                                            data-zoom-image={Product3}>
+                                                                            <img id='product-zoom' src={Product3} alt='product-image' />
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="owl-item" style={{ width: '50px' }}>
+                                                                    <div className='more-views-items'>
+                                                                        <a href='#' data-image={Product4}
+                                                                            data-zoom-image={Product4}>
+                                                                            <img id='product-zoom' src={Product4} alt='product-image' />
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="owl-item" style={{ width: '50px' }}>
+                                                                    <div className='more-views-items'>
+                                                                        <a href='#' data-image={Product5}
+                                                                            data-zoom-image={Product5}>
+                                                                            <img id='product-zoom' src={Product5} alt='product-image' />
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="owl-item" style={{ width: '50px' }}>
+                                                                    <div className='more-views-items'>
+                                                                        <a href='#' data-image={Product6}
+                                                                            data-zoom-image={Product6}>
+                                                                            <img id='product-zoom' src={Product6} alt='product-image' />
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="owl-controls clickable">
+                                                            <div className="owl-buttons">
+                                                                <div className="owl-prev">
+                                                                    <a className="flex-prev"></a>
+                                                                </div>
+                                                                <div className="owl-next">
+                                                                    <a className="flex-next"></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    {/* end: more-images   */}
                                 </div>
+                                {/* end: more-images   */}
                                 <div className="product-shop col-lg-8 col-sm-7 col-xs-12">
                                     <div className="product-next-prev"> <a className="product-next" href="#"><span></span></a> <a className="product-prev" href="#"><span></span></a> </div>
                                     <div className="product-name">
@@ -74,7 +124,7 @@ class productzoom extends Component {
                                     </div>
                                     <div className="ratings">
                                         <div className="rating-box">
-                                            <div style={{width: '60%'}} className="rating"></div>
+                                            <div style={{ width: '60%' }} className="rating"></div>
                                         </div>
                                         <p className="rating-links"> <a href="#">1 Review(s)</a> <span className="separator">|</span> <a href="#">Add Your Review</a> </p>
                                     </div>
@@ -98,7 +148,7 @@ class productzoom extends Component {
                                                     <button onClick={this.handlePlusButton} className="increase items-count" type="button"><i className="fa fa-plus">&nbsp;</i></button>
                                                 </div>
                                             </div>
-                                                <button onClick="productAddToCartForm.submit(this)" className="button btn-cart" title="Add to Cart" type="button">Add to Cart</button>
+                                            <button onClick="productAddToCartForm.submit(this)" className="button btn-cart" title="Add to Cart" type="button">Add to Cart</button>
                                         </div>
                                         <div className="email-addto-box">
                                             <ul className="add-to-links">

@@ -2,18 +2,9 @@ import React, { Component } from 'react'
 
 class navpages extends Component {
 
-    constructor(props) {
-        super(props)
-    
-        this.state = {
-             URL: window.location.href
-        }
-    }
-    
 
     render() {
-            if(this.state.URL==='http://localhost:3000/')
-            {
+            if(window.location.pathname.includes('home')){
         return (
             <> 
                 <ul className="level1"> 

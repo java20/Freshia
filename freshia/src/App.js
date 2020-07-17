@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header/header'
 import Footer from './components/Footer/footer'
+import Features from './components/features'
 import BrandLogo from './components/brandlogo'
 import Home from './components/Home_page'
 import Grid from './component2/Grid'
@@ -26,13 +27,14 @@ import MobileMenu from './mobilemenu'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
+  if(!window.location.pathname.includes('quickview')){
   return (
     <Router>
       <div className="App">
         <div id='page'>
         <Header />      {/** Fixed Component */}
         <Switch>
-          <Route path='/' exact component={Home} />
+          <Route path='/home' exact component={Home} />
           <Route path='/grid' component={Grid} />
           <Route path='/list' component={List} />
           <Route path='/productdetails' component={ProductDetails} />
@@ -50,19 +52,30 @@ function App() {
           <Route path='/contactus' component={ContactUs} />
           <Route path='/sitemap' component={SiteMap} />
           <Route path='/newsletter' component={NewsLetter} />
-          <Route path='/quickview' component={QuickView} />
           <Route path='/404error' component={PageNotFound} />
         </Switch>
         <BrandLogo />   {/** Fixed Component */}
+        {
+          !window.location.pathname.includes('home') && <Features />
+        }
         <Footer />      {/** Fixed Component */}
-        <Switch>
-          
-        </Switch>
         </div>
         <MobileMenu />  {/** Fixed and component for mobile menu only */}
       </div>
     </Router>
-  );
+  )
+  }
+  else{
+    return(
+      <Router>
+        <div className='App'>
+          <Switch>
+            <Route path='/quickview' component={QuickView} />
+          </Switch>
+        </div>
+      </Router>
+    )
+  }
 }
 
 export default App;
