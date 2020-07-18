@@ -1,7 +1,4 @@
 import React, { Component } from 'react'
-import Member1 from '../images/member1.jpg'
-import Member2 from '../images/member2.png'
-import Member3 from '../images/member3.png'
 import Ad1 from '../images/ads-02.jpg'
 import Ad2 from '../images/ads-03.jpg'
 import Ad3 from '../images/ads-05.jpg'
@@ -20,7 +17,7 @@ class customerreviews extends Component {
 
                                             <div class="carousel-inner">
                                                 <div class="item active">
-                                                    <div class="avatar"><img src={Member1} alt="slide3" /></div>
+                                                    <div class="avatar"><img src={process.env.PUBLIC_URL + '/images/member1.jpg'} alt="slide3" /></div>
                                                     <div>
                                                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est
                           tristique auctor. Donec non est at libero vulputate rutrum."</p>
@@ -29,7 +26,7 @@ class customerreviews extends Component {
                                                     </div>
                                                 </div>
                                                 <div class="item">
-                                                    <div class="avatar"><img src={Member2} alt="slide3" /></div>
+                                                    <div class="avatar"><img src={process.env.PUBLIC_URL + '/assets/images/product10.jpg'} alt="slide3" /></div>
                                                     <div>
                                                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est
                           tristique auctor. Donec non est at libero vulputate rutrum."</p>
@@ -38,7 +35,7 @@ class customerreviews extends Component {
                                                     </div>
                                                 </div>
                                                 <div class="item">
-                                                    <div class="avatar"><img src={Member3} alt="slide3" /></div>
+                                                    <div class="avatar"><img src={process.env.PUBLIC_URL + '/assets/images/product10.jpg'} alt="slide3" /></div>
                                                     <div>
                                                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est
                           tristique auctor. Donec non est at libero vulputate rutrum."</p>

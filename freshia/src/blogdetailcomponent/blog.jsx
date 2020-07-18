@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import BlogImg1 from '../images/blog-img1.jpg'
-import Member1 from '../images/member1.jpg'
 import Member2 from '../images/member2.png'
 import Member3 from '../images/member3.png'
 
@@ -44,7 +43,7 @@ class blog extends Component {
                                                 <li className="comment">
                                                     <div className="comment-wrapper" id="post-29">
                                                         <div className="comment-author vcard">
-                                                            <p className="gravatar"><a href="#"><img width="60" height="60" alt="avatar" src={Member1} /></a></p>
+                                                            <p className="gravatar"><a href="#"><img width="60" height="60" alt="avatar" src={process.env.PUBLIC_URL + '/images/member1.jpg'} /></a></p>
                                                             <span className="author">John Doe</span> </div>
                                                         {/* comment-author vcard */}
                                                         <div className="comment-meta">
@@ -86,7 +85,7 @@ class blog extends Component {
                                                 <li className="comment">
                                                     <div className="comment-wrapper" id="post-29">
                                                         <div className="comment-author vcard">
-                                                            <p className="gravatar"><a href="#"><img width="60" height="60" alt="avatar" src={Member1} /></a></p>
+                                                            <p className="gravatar"><a href="#"><img width="60" height="60" alt="avatar" src={process.env.PUBLIC_URL + '/images/member1.jpg'} /></a></p>
                                                             <span className="author">Lisa White</span> </div>
                                                         {/* comment-author vcard */}
                                                         <div className="comment-meta">

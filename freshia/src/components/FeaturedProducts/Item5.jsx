@@ -30,8 +30,8 @@ class Item5 extends Component {
                                             <div class="rating-box">
                                                 <div style={{ width: '80%' }} class="rating"></div>
                                             </div>
-                                            <p class="rating-links"> <a href="#">1 Review(s)</a> <span class="separator">|</span> <a
-                                                href="#">Add Review</a> </p>
+                                            <p class="rating-links"> <a href="#/">1 Review(s)</a> <span class="separator">|</span> <a
+                                                href="#/">Add Review</a> </p>
                                         </div>
                                     </div>
                                     <div class="item-price">

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import HotDealProduct from '../../products-images/product16.jpg'
 
 class slidehotdeals extends Component {
     render() {
@@ -11,7 +10,7 @@ class slidehotdeals extends Component {
                             <div className="item-inner">
                                 <div className="item-img">
                                     <div className="item-img-info"> <a href="#/" title="Retis lapen casen" className="product-image"> <img
-                                        src={HotDealProduct} alt="Retis lapen casen" /> </a>
+                                        src={process.env.PUBLIC_URL + '/assets/images/product16.jpg'} alt="Retis lapen casen" /> </a>
                                         <div className="hot-label hot-top-left">Hot</div>
                                         <div className="box-hover">
                                             <ul className="add-to-links">

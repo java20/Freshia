@@ -1,49 +1,45 @@
 import React, { Component } from 'react'
-import product9 from '../../products-images/product11.jpg'
-import product10 from '../../products-images/product12.jpg'
-import product11 from '../../products-images/product13.jpg'
-import product12 from '../../products-images/product14.jpg'
 
 class mentab extends Component {
     render() {
         return (
             <div>
-                <ul class="products-grid">
-                    <li class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <div class="item-inner">
-                            <div class="item-img">
-                                <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                    href="product_detail.html"> <img alt="Retis lapen casen"
-                                        src={product9} /> </a>
-                                    <div class="box-hover">
-                                        <ul class="add-to-links">
-                                            <li><a class="link-quickview" href="quick_view.html">Quick View</a> </li>
-                                            <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                            <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                <ul className="products-grid">
+                    <li className="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div className="item-inner">
+                            <div className="item-img">
+                                <div className="item-img-info"> <a className="product-image" title="Retis lapen casen"
+                                    href="/productdetails"> <img alt="Retis lapen casen"
+                                        src={process.env.PUBLIC_URL + '/assets/images/product11.jpg'}/> </a>
+                                    <div className="box-hover">
+                                        <ul className="add-to-links">
+                                            <li><a className="link-quickview" href="quick_view.html">Quick View</a> </li>
+                                            <li><a className="link-wishlist" href="wishlist.html">Wishlist</a> </li>
+                                            <li><a className="link-compare" href="compare.html">Compare</a> </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="item-info">
-                                <div class="info-inner">
-                                    <div class="item-title"> <a title="Retis lapen casen" href="product_detail.html"> Retis
+                            <div className="item-info">
+                                <div className="info-inner">
+                                    <div className="item-title"> <a title="Retis lapen casen" href="/productdetails"> Retis
                                                                     lapen casen </a> </div>
-                                    <div class="item-content">
-                                        <div class="rating">
-                                            <div class="ratings">
-                                                <div class="rating-box">
-                                                    <div style={{ width: '80%' }} class="rating"></div>
+                                    <div className="item-content">
+                                        <div className="rating">
+                                            <div className="ratings">
+                                                <div className="rating-box">
+                                                    <div style={{ width: '80%' }} className="rating"></div>
                                                 </div>
-                                                <p class="rating-links"> <a href="#">1 Review(s)</a> <span
-                                                    class="separator">|</span> <a href="#">Add Review</a> </p>
+                                                <p className="rating-links"> <a href="#/">1 Review(s)</a> <span
+                                                    className="separator">|</span> <a href="#/">Add Review</a> </p>
                                             </div>
                                         </div>
-                                        <div class="item-price">
-                                            <div class="price-box"> <span class="regular-price"> <span
-                                                class="price">$155.00</span> </span> </div>
+                                        <div className="item-price">
+                                            <div className="price-box"> <span className="regular-price"> <span
+                                                className="price">$155.00</span> </span> </div>
                                         </div>
-                                        <div class="action">
-                                            <button class="button btn-cart" type="button" title=""
+                                        <div className="action">
+                                            <button className="button btn-cart" type="button" title=""
                                                 data-original-title="Add to Cart"><span>Add to Cart</span> </button>
                                         </div>
                                     </div>
@@ -51,41 +47,41 @@ class mentab extends Component {
                             </div>
                         </div>
                     </li>
-                    <li class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <div class="item-inner">
-                            <div class="item-img">
-                                <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                    href="product_detail.html"> <img alt="Retis lapen casen"
-                                        src={product10} /> </a>
-                                    <div class="box-hover">
-                                        <ul class="add-to-links">
-                                            <li><a class="link-quickview" href="quick_view.html">Quick View</a> </li>
-                                            <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                            <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                    <li className="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div className="item-inner">
+                            <div className="item-img">
+                                <div className="item-img-info"> <a className="product-image" title="Retis lapen casen"
+                                    href="/productdetails"> <img alt="Retis lapen casen"
+                                        src={process.env.PUBLIC_URL + '/assets/images/product12.jpg'} /> </a>
+                                    <div className="box-hover">
+                                        <ul className="add-to-links">
+                                            <li><a className="link-quickview" href="quick_view.html">Quick View</a> </li>
+                                            <li><a className="link-wishlist" href="wishlist.html">Wishlist</a> </li>
+                                            <li><a className="link-compare" href="compare.html">Compare</a> </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="item-info">
-                                <div class="info-inner">
-                                    <div class="item-title"> <a title="Retis lapen casen" href="product_detail.html"> Retis
+                            <div className="item-info">
+                                <div className="info-inner">
+                                    <div className="item-title"> <a title="Retis lapen casen" href="/productdetails"> Retis
                                                                     lapen casen </a> </div>
-                                    <div class="item-content">
-                                        <div class="rating">
-                                            <div class="ratings">
-                                                <div class="rating-box">
-                                                    <div style={{ width: '80%' }} class="rating"></div>
+                                    <div className="item-content">
+                                        <div className="rating">
+                                            <div className="ratings">
+                                                <div className="rating-box">
+                                                    <div style={{ width: '80%' }} className="rating"></div>
                                                 </div>
-                                                <p class="rating-links"> <a href="#">1 Review(s)</a> <span
-                                                    class="separator">|</span> <a href="#">Add Review</a> </p>
+                                                <p className="rating-links"> <a href="#/">1 Review(s)</a> <span
+                                                    className="separator">|</span> <a href="#/">Add Review</a> </p>
                                             </div>
                                         </div>
-                                        <div class="item-price">
-                                            <div class="price-box"> <span class="regular-price"> <span
-                                                class="price">$225.00</span> </span> </div>
+                                        <div className="item-price">
+                                            <div className="price-box"> <span className="regular-price"> <span
+                                                className="price">$225.00</span> </span> </div>
                                         </div>
-                                        <div class="action">
-                                            <button class="button btn-cart" type="button" title=""
+                                        <div className="action">
+                                            <button className="button btn-cart" type="button" title=""
                                                 data-original-title="Add to Cart"><span>Add to Cart</span> </button>
                                         </div>
                                     </div>
@@ -93,41 +89,41 @@ class mentab extends Component {
                             </div>
                         </div>
                     </li>
-                    <li class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <div class="item-inner">
-                            <div class="item-img">
-                                <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                    href="product_detail.html"> <img alt="Retis lapen casen"
-                                        src={product11} /> </a>
-                                    <div class="box-hover">
-                                        <ul class="add-to-links">
-                                            <li><a class="link-quickview" href="quick_view.html">Quick View</a> </li>
-                                            <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                            <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                    <li className="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div className="item-inner">
+                            <div className="item-img">
+                                <div className="item-img-info"> <a className="product-image" title="Retis lapen casen"
+                                    href="/productdetails"> <img alt="Retis lapen casen"
+                                        src={process.env.PUBLIC_URL + '/assets/images/product13.jpg'} /> </a>
+                                    <div className="box-hover">
+                                        <ul className="add-to-links">
+                                            <li><a className="link-quickview" href="quick_view.html">Quick View</a> </li>
+                                            <li><a className="link-wishlist" href="wishlist.html">Wishlist</a> </li>
+                                            <li><a className="link-compare" href="compare.html">Compare</a> </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="item-info">
-                                <div class="info-inner">
-                                    <div class="item-title"> <a title="Retis lapen casen" href="product_detail.html"> Retis
+                            <div className="item-info">
+                                <div className="info-inner">
+                                    <div className="item-title"> <a title="Retis lapen casen" href="/productdetails"> Retis
                                                                     lapen casen </a> </div>
-                                    <div class="item-content">
-                                        <div class="rating">
-                                            <div class="ratings">
-                                                <div class="rating-box">
-                                                    <div style={{ width: '80%' }} class="rating"></div>
+                                    <div className="item-content">
+                                        <div className="rating">
+                                            <div className="ratings">
+                                                <div className="rating-box">
+                                                    <div style={{ width: '80%' }} className="rating"></div>
                                                 </div>
-                                                <p class="rating-links"> <a href="#">1 Review(s)</a> <span
-                                                    class="separator">|</span> <a href="#">Add Review</a> </p>
+                                                <p className="rating-links"> <a href="#/">1 Review(s)</a> <span
+                                                    className="separator">|</span> <a href="#/">Add Review</a> </p>
                                             </div>
                                         </div>
-                                        <div class="item-price">
-                                            <div class="price-box"> <span class="regular-price"> <span
-                                                class="price">$99.00</span> </span> </div>
+                                        <div className="item-price">
+                                            <div className="price-box"> <span className="regular-price"> <span
+                                                className="price">$99.00</span> </span> </div>
                                         </div>
-                                        <div class="action">
-                                            <button class="button btn-cart" type="button" title=""
+                                        <div className="action">
+                                            <button className="button btn-cart" type="button" title=""
                                                 data-original-title="Add to Cart"><span>Add to Cart</span> </button>
                                         </div>
                                     </div>
@@ -135,46 +131,46 @@ class mentab extends Component {
                             </div>
                         </div>
                     </li>
-                    <li class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <div class="item-inner">
-                            <div class="item-img">
-                                <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                    href="product_detail.html"> <img alt="Retis lapen casen"
-                                        src={product12} /> </a>
-                                    <div class="new-label new-top-left">new</div>
-                                    <div class="box-hover">
-                                        <ul class="add-to-links">
-                                            <li><a class="link-quickview" href="quick_view.html">Quick View</a> </li>
-                                            <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                            <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                    <li className="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div className="item-inner">
+                            <div className="item-img">
+                                <div className="item-img-info"> <a className="product-image" title="Retis lapen casen"
+                                    href="/productdetails"> <img alt="Retis lapen casen"
+                                        src={process.env.PUBLIC_URL + '/assets/images/product14.jpg'} /> </a>
+                                    <div className="new-label new-top-left">new</div>
+                                    <div className="box-hover">
+                                        <ul className="add-to-links">
+                                            <li><a className="link-quickview" href="quick_view.html">Quick View</a> </li>
+                                            <li><a className="link-wishlist" href="wishlist.html">Wishlist</a> </li>
+                                            <li><a className="link-compare" href="compare.html">Compare</a> </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="item-info">
-                                <div class="info-inner">
-                                    <div class="item-title"> <a title="Retis lapen casen" href="product_detail.html"> Retis
+                            <div className="item-info">
+                                <div className="info-inner">
+                                    <div className="item-title"> <a title="Retis lapen casen" href="/productdetails"> Retis
                                                                     lapen casen </a> </div>
-                                    <div class="item-content">
-                                        <div class="rating">
-                                            <div class="ratings">
-                                                <div class="rating-box">
-                                                    <div style={{ width: '80%' }} class="rating"></div>
+                                    <div className="item-content">
+                                        <div className="rating">
+                                            <div className="ratings">
+                                                <div className="rating-box">
+                                                    <div style={{ width: '80%' }} className="rating"></div>
                                                 </div>
-                                                <p class="rating-links"> <a href="#">1 Review(s)</a> <span
-                                                    class="separator">|</span> <a href="#">Add Review</a> </p>
+                                                <p className="rating-links"> <a href="#/">1 Review(s)</a> <span
+                                                    className="separator">|</span> <a href="#/">Add Review</a> </p>
                                             </div>
                                         </div>
-                                        <div class="item-price">
-                                            <div class="price-box">
-                                                <p class="special-price"> <span class="price-label">Special Price</span> <span
-                                                    class="price"> $156.00 </span> </p>
-                                                <p class="old-price"> <span class="price-label">Regular Price:</span> <span
-                                                    class="price"> $167.00 </span> </p>
+                                        <div className="item-price">
+                                            <div className="price-box">
+                                                <p className="special-price"> <span className="price-label">Special Price</span> <span
+                                                    className="price"> $156.00 </span> </p>
+                                                <p className="old-price"> <span className="price-label">Regular Price:</span> <span
+                                                    className="price"> $167.00 </span> </p>
                                             </div>
                                         </div>
-                                        <div class="action">
-                                            <button class="button btn-cart" type="button" title=""
+                                        <div className="action">
+                                            <button className="button btn-cart" type="button" title=""
                                                 data-original-title="Add to Cart"><span>Add to Cart</span> </button>
                                         </div>
                                     </div>

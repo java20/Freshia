@@ -12,22 +12,22 @@ class bestseller extends Component {
     render() {
         return (
             <div>
-                <section class="bestsell-pro">
-                    <div class="container">
-                        <div class="slider-items-products">
-                            <div class="bestsell-block">
-                                <div id="bestsell-slider" class="product-flexslider hidden-buttons">
-                                    <div class="home-block-inner">
-                                        <div class="block-title">
+                <section className="bestsell-pro">
+                    <div className="container">
+                        <div className="slider-items-products">
+                            <div className="bestsell-block">
+                                <div id="bestsell-slider" className="product-flexslider hidden-buttons">
+                                    <div className="home-block-inner">
+                                        <div className="block-title">
                                             <h2>Best Sellers </h2>
                                         </div>
-                                        <div class="pretext"><a title="Retis lapen casen" href="#"> <img alt="Retis lapen casen"
+                                        <div className="pretext"><a title="Retis lapen casen" href="#/"> <img alt="Retis lapen casen"
                                             src={BannerImg} /> </a>                         {/** Image */}
-                                            <div class="offer-text">Save upto 25% Today!</div>
+                                            <div className="offer-text">Save upto 25% Today!</div>
                                         </div>
-                                        <a href="grid.html" class="view_more_bnt">View All</a>
+                                        <a href="/grid" className="view_more_bnt">View All</a>
                                     </div>
-                                    <div class="slider-items slider-width-col4 products-grid block-content">
+                                    <div className="slider-items slider-width-col4 products-grid block-content">
                                         <Item1 />
                                         <Item2 />
                                         <Item3 />

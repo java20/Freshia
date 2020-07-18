@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import Slide1 from '../../images/slide-img1.jpg'
 
 class slide1 extends Component {
     render() {
         return (
             <>
                 <li data-transition='random' data-slotamount='7' data-masterspeed='1000'
-                    data-thumb={Slide1}><img src={Slide1} alt="slide-img"
+                    data-thumb={process.env.PUBLIC_URL + '/assets/images/slide-img1.jpg'}><img src={process.env.PUBLIC_URL + '/assets/images/slide-img1.jpg'} alt="slide-img"
                         data-bgposition='left top' data-bgfit='cover' data-bgrepeat='no-repeat' />
                     <div className="info">
                         <div className='tp-caption ExtraLargeTitle sft  tp-resizeme ' data-endspeed='500' data-speed='500'
