@@ -1,29 +1,29 @@
 import React from 'react';
 import Header from './FixedComponent/Header/header'
 import Footer from './FixedComponent/Footer/footer'
-import Features from './components/features'
+import Features from './Home/features'
 import BrandLogo from './FixedComponent/brandlogo'
-import Home from './components/Home_page'
-import Grid from './component2/Grid'
-import List from './listcomponent/list'
-import ProductDetails from './productdetailscomp/productdetails'
-import ShoppingCart from './shopping_cartComp/cart'
-import Blog from './blogcomponent/blog'
-import BlogDetail from './blogdetailcomponent/blogdetail'
-import Checkout from './checkoutcomponent/checkout'
-import WishList from './wishlistcomponent/wishlist'
-import Dashboard from './dashboard/dashboard'
-import MultipleAddresses from './multipleaddresses/multipleaddresses'
-import Compare from './comparecomponent/compare'
-import Login from './logincomponent/login'
-import AboutUs from './aboutus/aboutus'
-import Faq from './faqcomponent/faq'
-import ContactUs from './contactus/contactus'
-import SiteMap from './sitemap/sitemap';
-import NewsLetter from './newsletter/newsletter'
-import QuickView from './quickview/quickview'
-import PageNotFound from './404error/pagenotfound'
-import MobileMenu from './mobilemenu'
+import Home from './Home/Home_page'
+import Grid from './Grid/grid'
+import List from './List/list'
+import ProductDetails from './ProductDetails/productdetails'
+import ShoppingCart from './ShoppingCart/cart'
+import Blog from './Blog/blog'
+import BlogDetail from './BlogDetail/blogdetail'
+import Checkout from './Checkout/checkout'
+import WishList from './WishList/wishlist'
+import Dashboard from './DashBoard/dashboard'
+import MultipleAddresses from './MultipleAddresses/multipleaddresses'
+import Compare from './Compare/compare'
+import Login from './Login/login'
+import AboutUs from './AboutUs/aboutus'
+import Faq from './Faq/faq'
+import ContactUs from './ContactUs/contactus'
+import SiteMap from './SiteMap/sitemap';
+import NewsLetter from './NewsLetter/newsletter'
+import QuickView from './QuickView/quickview'
+import PageNotFound from './404Error/pagenotfound'
+import MobileMenu from './MobileMenu/mobilemenu'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
         <div id='page'>
         <Header />      {/** Fixed Component */}
         <Switch>
-          <Route path='/home' exact component={Home} />
+          <Route path='/home' component={Home} />
           <Route path='/grid' component={Grid} />
           <Route path='/list' component={List} />
           <Route path='/productdetails' component={ProductDetails} />

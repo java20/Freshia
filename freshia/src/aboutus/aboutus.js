@@ -9,7 +9,7 @@ class aboutus extends Component {
                         <div className="row">
                             <div className="col-xs-12">
                                 <ul>
-                                    <li className="home"> <a title="Go to Home Page" href="index.html">Home</a> <span>/</span> </li>
+                                    <li className="home"> <a title="Go to Home Page" href="/home">Home</a> <span>/</span> </li>
                                     <li className="category1601"> <strong>About Us</strong> </li>
                                 </ul>
                             </div>
@@ -39,10 +39,10 @@ class aboutus extends Component {
                                     <div className="block-content">
                                         <ol id="recently-viewed-items">
                                             <li className="item odd"><strong>About Us</strong></li>
-                                            <li className="item even"><a href="sitemap.html">Sitemap</a></li>
-                                            <li className="item  odd"><a href="#">Terms of Service</a></li>
-                                            <li className="item even"><a href="#">Search Terms</a></li>
-                                            <li className="item last"><a href="contact_us.html">Contact Us</a></li>
+                                            <li className="item even"><a href="/sitemap">Sitemap</a></li>
+                                            <li className="item  odd"><a href="#/">Terms of Service</a></li>
+                                            <li className="item even"><a href="#/">Search Terms</a></li>
+                                            <li className="item last"><a href="/contactus">Contact Us</a></li>
                                         </ol>
                                     </div>
                                 </div>
