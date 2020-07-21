@@ -1,29 +1,29 @@
 import React from 'react';
-import Header from './FixedComponent/Header/header'
-import Footer from './FixedComponent/Footer/footer'
-import Features from './Home/features'
-import BrandLogo from './FixedComponent/brandlogo'
-import Home from './Home/Home_page'
-import Grid from './Grid/grid'
-import List from './List/list'
-import ProductDetails from './ProductDetails/productdetails'
-import ShoppingCart from './ShoppingCart/cart'
-import Blog from './Blog/blog'
-import BlogDetail from './BlogDetail/blogdetail'
-import Checkout from './Checkout/checkout'
-import WishList from './WishList/wishlist'
-import Dashboard from './DashBoard/dashboard'
-import MultipleAddresses from './MultipleAddresses/multipleaddresses'
-import Compare from './Compare/compare'
-import Login from './Login/login'
-import AboutUs from './AboutUs/aboutus'
-import Faq from './Faq/faq'
-import ContactUs from './ContactUs/contactus'
-import SiteMap from './SiteMap/sitemap';
-import NewsLetter from './NewsLetter/newsletter'
-import QuickView from './QuickView/quickview'
-import PageNotFound from './404Error/pagenotfound'
-import MobileMenu from './MobileMenu/mobilemenu'
+import Header from './Components/FixedComponent/Header/header'
+import Footer from './Components/FixedComponent/Footer/footer'
+import Features from './Components/Home/features'
+import BrandLogo from './Components/FixedComponent/brandlogo'
+import Home from './Components/Home/Home_page'
+import Grid from './Components/Grid/grid'
+import List from './Components/List/list'
+import ProductDetails from './Components/ProductDetails/productdetails'
+import ShoppingCart from './Components/ShoppingCart/cart'
+import Blog from './Components/Blog/blog'
+import BlogDetail from './Components/BlogDetail/blogdetail'
+import Checkout from './Components/Checkout/checkout'
+import WishList from './Components/WishList/wishlist'
+import Dashboard from './Components/DashBoard/dashboard'
+import MultipleAddresses from './Components/MultipleAddresses/multipleaddresses'
+import Compare from './Components/Compare/compare'
+import Login from './Components/Login/login'
+import AboutUs from './Components/AboutUs/aboutus'
+import Faq from './Components/Faq/faq'
+import ContactUs from './Components/ContactUs/contactus'
+import SiteMap from './Components/SiteMap/sitemap';
+import NewsLetter from './Components/NewsLetter/newsletter'
+import QuickView from './Components/QuickView/quickview'
+import PageNotFound from './Components/404Error/pagenotfound'
+import MobileMenu from './Components/MobileMenu/mobilemenu'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
@@ -34,6 +34,7 @@ function App() {
         <div id='page'>
         <Header />      {/** Fixed Component */}
         <Switch>
+          <Route path='/' exact component={Home} />
           <Route path='/home' component={Home} />
           <Route path='/grid' component={Grid} />
           <Route path='/list' component={List} />
